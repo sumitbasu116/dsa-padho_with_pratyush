@@ -1,5 +1,7 @@
 https://leetcode.com/problems/fruit-into-baskets/
 
+maximum length of substring of at most 2 distinct Character.
+
 class Solution {
     public int totalFruit(int[] a) {
         int low =0,high=0;
