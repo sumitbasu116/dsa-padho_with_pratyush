@@ -1,5 +1,5 @@
 https://leetcode.com/problems/sort-colors/
-
+best time: https://youtu.be/ljJJcYql6Bc?list=PLbJhGqY-mq47k_WLUtzVjmarUm1EuXPj2&t=1982 
 class Solution {
     public void sortColors(int[] a) {
         int low = 0;
