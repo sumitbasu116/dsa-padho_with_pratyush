@@ -1,5 +1,7 @@
 https://leetcode.com/problems/find-pivot-index/
-
+/*
+  (a[i] + prefix[i] + suffix[i]) always equals to sum of all the elements of the array
+*/
 
 class Solution {
     public int pivotIndex(int[] a) {
