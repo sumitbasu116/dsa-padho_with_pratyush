@@ -6,7 +6,7 @@ Then there exists an subarray whose sum is multiple of k.
 So, save each index prefix sum % k into a HashMap. If any other index, (prefix sum % k) exists in the HashMap already then we found the asnswer. 
     MATH:
         x % k = r
-        x = k * m + r
+        x = k * m + r, as r is the remainder or r is extra here. That is why the remainder is r.
         prefixSum[i] % k = r
         prefixSum[j] % k = r   when, (j > i)
         
